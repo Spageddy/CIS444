@@ -1,0 +1,9 @@
+ /* hw2.css - an external style sheet
+     for use with definition.html
+   */
+  dt {font-size: 1em;
+      font-family: 'Courier';
+        }
+  
+  dd {font-family: 'Times New Roman';
+      font-size: 1.1em;}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Hw4: fruits.html- calculates the number of apples,
+	oranges,and bananas and outputs the total cost. When
+	order is and alert message pops up with total cost plus 7.75% tax-->
+<html lang = "eng">
+<head>
+	<title>fruits!</title>
+	<meta charset="utf-8"/>
+	<link rel = "stylesheet"  type = "text/css"
+          href = "fruits.css" />
+    <script type = "text/javascript"  src = "fruits.js" >
+    </script>
+</head>
+<body>
+	<form action = " " onsubmit="TotalwTax()">
+		<h1>Order Fruits</h1>
+		<!--fruit order form -->
+		<table>
+			<tr>
+			<th>Fruit</th>
+			<th>Price</th>
+			<th>Amount</th>
+			</tr>
+
+			<tr>
+			<th style ="text-align: center">Apple</th>	
+			<td>$0.59</td>
+			<td><input type="number" id ="apple" value="0" min="0" max="99"
+				  placeholder="0" onblur="checkval(this.value)"
+				  onclick="getTotal()"/> </td>
+			</tr>
+
+			<tr>
+			<th style ="text-align: center">Orange</th>	
+			<td>$0.49</td>
+			<td><input type="number" id ="orange" value="0" min="0" max="99"
+				placeholder="0" onblur="checkval(this.value)"
+				onclick="getTotal()"/> </td>
+			</tr>
+
+			<tr>
+			<th style ="text-align: center">Banana</th>	
+			<td>$0.39</td>
+			<td><input type="number" id ="banana" value="0" min="0" max="99"
+				placeholder="0" onblur="checkval(this.value)"
+				onclick="getTotal()"/> </td>
+			</tr>
+
+			<tr>
+				<th>Total Cost:</th>
+				<td colspan="2"><input type = "text" size = "5"  id = "cost"
+               	placeholder="0.00" onfocus = "this.blur();" />
+               </td>
+           	</tr>
+			</table>
+		<!--submit buttom -->
+      	<p>
+        	<input type ="Submit"  value = "Submit Order" />
+      	</p>
+  </form>
+</body>
+</html>
+

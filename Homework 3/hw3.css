@@ -1,0 +1,17 @@
+ /* hww.css - an external style sheet
+     for use with hw3.html
+   */
+  
+  table, th{
+  	 border: 1px solid;
+  	 text-align: center;
+  	 border-collapse: collapse;
+  }
+
+  td {
+  	 border: 1px solid;
+  	 text-align: center;
+  	 padding: 5px;
+  }
+
+td:hover {background-color: gray}

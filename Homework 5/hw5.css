@@ -1,0 +1,13 @@
+ /* hw5.css - an external style sheet
+     for use with hw5.html
+   */
+span {
+	position: absolute;
+ 	left:0px; 
+ 	top: 100px;
+ 	color:red;
+ }
+
+div {
+	position: absolute;
+}

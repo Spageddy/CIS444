@@ -1,0 +1,10 @@
+ /* fruits.css - an external style sheet
+     for use with fruits.html
+   */
+  
+  table,th,td{
+  	 border: 1px solid;
+  	 text-align: right;
+  	 border-collapse: collapse;
+  }
+

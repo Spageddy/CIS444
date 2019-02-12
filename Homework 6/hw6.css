@@ -1,0 +1,7 @@
+ /* hw6.css - an external style sheet
+     for use with hw6.html
+   */
+table,th,td{
+  	 border: 1px solid;
+  	 text-align: right;
+  }

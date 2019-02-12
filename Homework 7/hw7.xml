@@ -1,0 +1,69 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!--<?xml-stylesheet type="text/css" href="hw7.css" ?>-->
+
+<catalog
+  xmlns = "http://cs.csusm.edu"
+  xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://cs.csusm.edu hw7.xsd">
+
+<car>
+<make>Toyota</make>
+<model>Corolla CE</model>
+<year>2007</year>
+<color>Black</color>
+<engine>
+	<number_of_cylinders>4</number_of_cylinders>
+	<fuel_system>fuel injected</fuel_system>
+</engine>
+<number_of_doors>4</number_of_doors>
+<transmission_type>manuel</transmission_type>
+<accessories
+	radio= "yes"
+	air_conditioning= "yes"
+	power_windows= "yes"
+	power_steering= "yes"
+	power_brakes= "yes"> All
+</accessories>
+</car>
+
+<car>
+<make>Fisker</make>
+<model>Karma</model>
+<year>2012</year>
+<color>Silver</color>
+<engine>
+	<number_of_cylinders>4</number_of_cylinders>
+	<fuel_system>Fuel injected</fuel_system>
+</engine>
+<number_of_doors>4</number_of_doors>
+<transmission_type>Automatic</transmission_type>
+<accessories
+	radio= "no"
+	air_conditioning= "no"
+	power_windows= "no"
+	power_steering= "no"
+	power_brakes= "no">None
+</accessories>
+</car>
+
+<car>
+<make>Toyota</make>
+<model>4runner</model>
+<year>1996</year>
+<color>grey</color>
+<engine>
+	<number_of_cylinders>6</number_of_cylinders>
+	<fuel_system>fuel injected</fuel_system>
+</engine>
+<number_of_doors>4</number_of_doors>
+<transmission_type>manuel</transmission_type>
+<accessories
+	radio= "yes"
+	air_conditioning= "yes"
+	power_windows= "no"
+	power_steering= "no"
+	power_brakes= "yes"> Some
+</accessories>
+</car>
+
+</catalog>

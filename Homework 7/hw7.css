@@ -1,0 +1,22 @@
+car{
+	display: block;
+	color:black;
+}
+
+make, model,{
+	color:black;
+}
+ year, color, number_of_doors, transmission_type{
+	display: block;
+	color:gray;
+}
+
+engine{
+	display: block;
+	color: grey;
+}
+
+accessories{
+	display: block;
+	color: lightslategray;
+}
